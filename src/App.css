@@ -1,0 +1,7 @@
+.header-top{
+    position: relative;
+    background: white;
+    z-index: 1000;
+    height: 50px;
+    width:100%
+}

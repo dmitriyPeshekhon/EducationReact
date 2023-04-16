@@ -1,0 +1,18 @@
+.categories {
+    width: max-content;
+    position: absolute;
+    z-index: -1;
+    padding: 0 20px 0 20px;
+    border-radius: 0 0px 10px 0;
+    background: rgba(0, 0, 0, 0.3);
+    transform: translateY(-120%);
+    transition:all 1s
+}
+
+.categories.show {
+    position: absolute;
+    z-index: -1;
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(55px);
+    transition: all 1s;
+}
